@@ -1,0 +1,17 @@
+Pseudocodigo	 
+//Busqueda Secuencial
+para cada elemento en el arreglo
+   si elemento es igual a la clave buscada
+      retornar posición
+retornar -1 (no encontrado)
+
+//Busqueda Binaria (arreglo ordenado)
+mientras inicio <= fin
+    calcular posición media
+    si elemento en media es igual a la clave
+        retornar posición
+    si clave es mayor
+        mover inicio a media + 1
+    si clave es menor
+        mover fin a media - 1
+retornar -1 (no encontrado)
